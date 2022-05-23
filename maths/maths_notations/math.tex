@@ -1,0 +1,99 @@
+\documentclass[14pt, a4paper]{article}
+\usepackage[]{geometry}
+\geometry{
+    total={170mm,257mm},
+    left=20mm,
+    top=5mm
+}
+\usepackage[]{amsfonts}
+
+\title{Mathematical Notations}
+\author{Kunal Singh}
+
+\begin{document}
+\maketitle
+\section*{Set Theory}
+    \begin{itemize}
+
+        \item[1]
+            Set is denoted by \{ \}.
+            Set with $2$ and $3$ is denoted by \{$2$, $3$\}.
+
+            Let $A$ be a set of $n$ elements.
+            Then $A$ = \{$1$, $2$, \ldots, $n$\}.
+
+            Then assert $a$ is present in $A$ is denoted by $a \in A$. And assert $b$ is not
+            present in $A$ is denoted by $b \notin A$.
+
+            {\bf{Some Predefined Sets:}}
+            \begin{itemize}
+                \item[1.1]
+                Natural numbers is denoted by $\mathbb{N}$.
+                \\ $\mathbb{N}$ = \{$1$, $2$, $3$, \ldots\}.
+
+                \item[1.2]
+                Integers is denoted by $\mathbb{Z}$.
+                \\ $\mathbb{Z} = \{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}$.
+
+                \item[1.3]
+                Rational number is denoted by $\mathbb{Q}$.
+                \\ $\mathbb{Q} =\left\{\frac{p}{q} : p , q \in \mathbb{Z}, q \neq 0 \right\}$.
+
+                {\it{For example:\\}}
+                $\frac{1}{3} \in \mathbb{Q}, \; \frac{-1}{34} \in \mathbb{Q}, \; \sqrt{2} \notin \mathbb{Q}, \;  \pi \notin \mathbb{Q}$.
+
+                \item[1.4]
+                Real number is denoted by $\mathbb{R}$.
+                \\ $\mathbb{R} = \{x | -\infty < x < \infty\}$.
+                \\ eg. $-67.343 \in \mathbb{R}$.
+
+                \item[1.5]
+                Compex number is denoted by $\mathbb{C}$.
+                \\ i.e $\mathbb{C} = \{z \ | \ z \ = \ a + bi, \ -\infty < a < \infty, \ -\infty < b < \infty \}$;
+
+            \end{itemize}
+
+        If set $A$ is a subset of $B$, then we write $A \subseteq B$.
+        \\ this means $\mathbb{N} \subseteq \mathbb{Z} \subseteq \mathbb{Q}$.
+
+        If set $A$ is a proper subset of $B$, then we write $A \subset B$.
+
+        ${\it{Such that}} \; | \;$  Symbol .
+        \\ $A = \{ x | x \subseteq \mathbb{R}, x < 0 \}$.
+
+        $\it{Intersection} \; \cap :$ object that belong to set $A$ {\bf{and}} set $B$.
+        \\ $\it{Union} \; \cup  :$ object that belong to set $A$ {\bf{or}} set $B$.
+
+
+        If set $A$ is {\bf{not}} a subset of $B$, then we write $A \not\subset B$.
+
+        {\it{Power Set}} : All subsets of A.
+        \\ Represented by $2^A$ or $P(A)$ or $\mathbb{P}(A)$.
+
+
+        ${\it{Equality}} \; = \;$ Symbol.
+        \\ $A = B$ if and only if $A \subseteq B$ and $B \subseteq A$.
+        \\ when both set have same elements, then they are equal.
+
+        ${\it{Complement}} \; A^c$ or $A'$ : Set of all elements that are not in set $A$.
+
+        ${\it{Relative \; complement}}$ $A \symbol{92} B$ or $A-B$ : object that belong to $A$ but not to $B$.
+
+        ${\it{Symmetric \; difference}}$ $A \Delta B$ or $A \Theta B$ : object that belong to $A$ or $B$ but not to their intersection.
+
+        ${\it{Ordered pair}}\; (a, b)$ : collection of two elements.
+
+        ${\it{Cartesian \; product}} \; A \times B$ : set of all ordered pairs from A and B.
+        \\$A \times B = \{ (a, b) \ | \ a \in A, b \in B \}$.
+
+        ${\it{Cardinality}} \; |A|$ or $\#A$ : number of elements in set $A$.
+
+        $\aleph_0$ : infinite cardinality of natural numbers set.
+        \\$\aleph_1$ : cardinality of countabel ordinal numbers set.
+
+        $\emptyset$ : empty set. $\emptyset = \{\}$.
+
+        $\mathbb{U}$ : Universal set. Set of all possible set.
+
+    \end{itemize}
+\end{document}
